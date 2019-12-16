@@ -18,4 +18,5 @@ Data warehouse: Redshift (Destination)
 (3) sql_query.py  : this pyhton file will be having all those sql query for creating table schemas, staging table schemas,
                     dimentional table schema and insert into queries with python variable.
                   
-(4) etl.py  : we will be loading data into tables using all those variable we have created in sql_query.py file.
+(4) etl.py  : we will be loading data into tables using all those variable we have created in sql_query.py file and we would 
+              only take certain column from source json data.
